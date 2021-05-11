@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
+:root{
+    --white: rgb(245, 245, 245);
+    --purple-lighter: #ebd3ef;
+    --purple: #BE70CB;
+    --purple-dark: #83498C;
+    --red: red;
+    --grey: #343434;
+}
+
+body{
+    color: black;
+}
+
+body, input, textarea, button {
+    outline: none;
+    font: 400 1rem 'Roboto', sans-serif;
+}
+
+input {
+    border: 1px solid #a1a1a1;
+    border-radius: 6px;
+    padding: 0px 5px;
+  }
+  
+input:focus {  
+border-color: #0070e9;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+button, input[type="submit"] {
+    cursor: pointer;
+}
